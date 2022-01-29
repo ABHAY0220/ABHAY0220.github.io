@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY PORTFOLIO</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+
+        background-color: black;
+      }
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 30px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: green;
+      }
+      li {
+        display: inline;
+        float: right;
+      }
+      .active {
+        background-color: lightgreen;
+      }
+      li {
+        border-left: solid 1px whitesmoke;
+      }
+      li:first-child {
+        border-left: none;
+        font-size: 0.8em;
+      }
+      ul {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+      a {
+        display: block;
+        padding: 15px;
+        background-color: black;
+      }
+
+      .header {
+        width: 100%;
+        height: 30px;
+        background: white;
+      }
+      .home-page {
+        background-image: url(pexels-jess-bailey-designs-743986.jpg);
+        background-size: 1600px 770px;
+        background-color: lightsalmon;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 768px;
+        display: flex;
+        flex: 1 1;
+      }
+
+      .hobbies {
+        width: 100%;
+        height: 768px;
+        background-image: url(pexels-jess-bailey-designs-743986.jpg);
+        background-size: 1600px 770px;
+        background-color: lightsalmon;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .hobbies-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+      }
+
+      .hobbies-icons {
+        display: flex;
+        justify-content: center;
+      }
+
+      .hobbies .hobbies-icons img {
+        height: 100px;
+        width: 100px;
+        margin-top: 250px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 10px;
+        border: 4px solid black;
+      }
+      .skills {
+        width: 100%;
+        height: 768px;
+        background-image: url(pexels-jess-bailey-designs-743986.jpg);
+        background-size: 1600px 770px;
+        background-color: lightsalmon;
+        background-repeat: no-repeat;
+      }
+
+      .skills-head {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+      }
+
+      .description {
+        width: 100%;
+        margin-left: 80px;
+        margin-top: 80px;
+      }
+
+      .description p {
+        font-size: 2em;
+      }
+      .profile-photo {
+        width: 100%;
+        display: flex;
+      }
+
+      .my_image {
+        float: right;
+        height: 350px;
+        width: 350px;
+        margin-left: 300px;
+        margin-top: 80px;
+        border-radius: 50%;
+      }
+    </style>
+
+    <script></script>
+  </head>
+  <body>
+    <div class="header">
+      <h2>
+        <ul>
+          <li style="float: left" id="name">
+            <a href="" style="font-family: cursive">ABHAY ARYA </a>
+          </li>
+          <li><a href="#skill-sec">SKILLS</a></li>
+          <li><a href="#hobby-sec">MY HOBBIES</a></li>
+          <li><a href="#home-sec">HOME</a></li>
+        </ul>
+      </h2>
+    </div>
+    <div id="home-sec" class="home-page">
+      <div class="description">
+        <h1>HELLO EVERYBODY!</h1>
+        <p>
+          HERE IS SOMETHING INTERESTING ABOUT ME.<br />
+          <br />I PLAYED GRATITUDE ON GUITAR FOR CRESCENDO AUDTIONS.
+        </p>
+      </div>
+      <div class="profile-photo">
+        <img class="my_image" src="profile.jpeg" alt="" />
+      </div>
+    </div>
+
+    <div id="hobby-sec" class="hobbies">
+      <div class="hobbies-head">
+        <h1>HOBBIES</h1>
+      </div>
+      <div class="hobbies-icons">
+        <img src="chess.png" alt="" />
+        <img src="guitar.png" alt="" />
+        <img src="console.png" alt="" />
+        <img src="cricket.png" alt="" />
+      </div>
+    </div>
+    <div id="skill-sec" class="skills">
+      <div class="skills-head">
+        <h1>SKILLS</h1>
+      </div>
+    </div>
+  </body>
+</html>
